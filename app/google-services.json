@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "515262768729",
+    "firebase_url": "https://fir-shapee-project.firebaseio.com",
+    "project_id": "fir-shapee-project",
+    "storage_bucket": "fir-shapee-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515262768729:android:cee3e3dcdb0a599e5ab348",
+        "android_client_info": {
+          "package_name": "com.shapeecloudjsc.firebasecloudmessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515262768729-c3f1hp6kvclprv8l2d0f88mgc73f9svr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAldZiDWKbIcX25es1_6rgddi4NlIIR-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515262768729-c3f1hp6kvclprv8l2d0f88mgc73f9svr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:bottom="7dp" android:left="7dp">
+                <shape android:layout_width="wrap_content" android:layout_height="wrap_content" android:shape="rectangle">
+                    <gradient android:angle="180" android:centerColor="#A2CFFF" android:endColor="#5CA6EF" android:startColor="#1976D2" />
+                    <corners android:bottomRightRadius="15dp" android:topLeftRadius="15dp" />
+                    <stroke android:width="0.5dp" android:color="#000" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:right="7dp" android:top="7dp">
+                <shape android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <solid android:color="#F1F1F1" />
+                    <corners android:bottomRightRadius="15dp" android:topLeftRadius="15dp" />
+                    <padding android:bottom="1dp" android:left="1dp" />
+                </shape>
+            </item>
+            <item android:bottom="3dp" android:left="3dp">
+                <shape android:layout_width="wrap_content" android:layout_height="wrap_content" android:shape="rectangle">
+                    <gradient android:angle="180" android:centerColor="#FFCE7A" android:endColor="#FFB600" android:startColor="#FB0707" />
+                    <corners android:bottomRightRadius="15dp" android:topLeftRadius="15dp" />
+                    <stroke android:width="0.5dp" android:color="#000" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

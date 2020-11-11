@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_item"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:padding="5dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="left"
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="153"
+        android:layout_weight="1"
+        android:textColor="#03529F"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvTourName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AB-82"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/tvFromCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hà Nội"
+        android:textColor="#388E3C"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textColor="#388E3C"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:textStyle="normal" />
+    <TextView
+        android:gravity="right"
+        android:id="@+id/tvToCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moskva"
+        android:textColor="#DC0E0E"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:textStyle="normal" />
+</LinearLayout>
+
+</LinearLayout>
